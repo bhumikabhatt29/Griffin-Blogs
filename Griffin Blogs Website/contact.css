@@ -1,0 +1,32 @@
+.footer {
+  height: 70px;
+  background-color:rgb(91, 12, 12) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+}
+.contact-content{  
+    height: 100vh;
+    margin-top: 30px;
+    padding: 8px;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+  .contact-content::after {
+    content: "";
+    background-image: url("/image/11.svg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
+ 
